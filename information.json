@@ -1,0 +1,27 @@
+{
+  "social-media": {
+    "TikTok": "maradrinksmilk",
+    "Instagram": "mi.lk",
+    "Email": "pr@mara.fyi"
+  },
+  "website": {
+    "title": "Website Title",
+    "description": ""
+  },
+  "header": {
+    "name": "Name of Person",
+    "tagline": "Tagline"
+  },
+  "api": {
+    "link": ""
+  },
+  "colors": {
+    "primary": "",
+    "secondary": "",
+    "tertiary": ""
+  },
+  "fonts": {
+    "primary": "",
+    "secondary": ""
+  }
+}
