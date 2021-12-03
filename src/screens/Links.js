@@ -43,13 +43,11 @@ export default function Links({ information }) {
   }, []);
 
   const colors = information.colors;
-  const fonts = information.fonts;
 
   return (
     <div style={{
       backgroundColor: colors.accent,
-      color: colors.primary,
-      font: fonts.primary
+      color: colors.primary
       }}>
       <div class="buffer">
         <Header information={information}/>

@@ -40,14 +40,6 @@ img {
   color: white;
 }
 
-a {
-  color: lightskyblue;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 .active {
   font-weight: 700;
   color: black;

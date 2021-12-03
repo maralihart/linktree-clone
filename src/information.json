@@ -9,7 +9,7 @@
     "title": "Website Title",
     "description": ""
   },
-  "name": "Mara H",
+  "name": "MARA",
   "api": {
     "link": ""
   },
@@ -18,9 +18,5 @@
     "secondary": "red",
     "tertiary": "blue",
     "accent": "pink"
-  },
-  "fonts": {
-    "primary": "Source Sans Pro",
-    "secondary": "cursive"
   }
 }
