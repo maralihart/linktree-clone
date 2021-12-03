@@ -1,27 +1,27 @@
 {
-  "social-media": {
-    "TikTok": "maradrinksmilk",
-    "Instagram": "mi.lk",
-    "Email": "pr@mara.fyi"
+  "socialmedia": {
+    "TikTok": "https://tiktok.com/@maradrinksmilk",
+    "Instagram": "https://instagram.com/mi.lk",
+    "Email": "pr@mara.fyi",
+    "YouTube": "https://www.youtube.com/channel/UCfuOFxW3PgXzPpZBYHnE3uA"
   },
   "website": {
     "title": "Website Title",
     "description": ""
   },
-  "header": {
-    "name": "Name of Person",
-    "tagline": "Tagline"
-  },
+  "name": "Mara H",
   "api": {
     "link": ""
   },
   "colors": {
-    "primary": "",
+    "primary": "green",
     "secondary": "",
-    "tertiary": ""
+    "tertiary": "blue",
+    "accent": "white",
+    "background": "pink"
   },
   "fonts": {
-    "primary": "",
-    "secondary": ""
+    "primary": "Source Sans Pro",
+    "secondary": "cursive"
   }
 }

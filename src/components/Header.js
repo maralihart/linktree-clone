@@ -6,7 +6,7 @@ import TikTokIcon from '../assets/tiktok-logo.png';
 import { Row, Col } from 'react-bootstrap';
 import InstagramIcon from '../assets/instagram-logo.png';
 
-export default function Header() {
+export default function Header({ information }) {
   return (
     <>
     <Row style={{
@@ -18,10 +18,9 @@ export default function Header() {
         className="circle"
         src={pfp}
         width="125px" height="125px"
-        alt="Mara drinking juice at brunch" />
+        alt={`Headshot of ${information.name}`} />
     </Row>
-    <h1 className="text-center" style={{ fontFamily: "Source Sans Pro", textTransform: "uppercase" }}>mara</h1>
-    {/* <h2 className="text-center">assalamu alaiykum</h2> */}
+    <h1 className="text-center">{information.name}</h1>
     </>
   )
 }
