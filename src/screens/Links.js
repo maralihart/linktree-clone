@@ -45,9 +45,9 @@ export default function Links({ information }) {
   return (
     <>
       <div class="buffer">
-        <Header />
-        <Banner />
-        <Col>
+        <Header information={information}/>
+        <Banner information={information}/>
+        <Col style={{ marginTop: 10 }}>
           {links.map((item) => <LinkButton item={item} />)}
         </Col>
       </div>
