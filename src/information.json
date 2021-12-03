@@ -15,7 +15,7 @@
   },
   "colors": {
     "primary": "green",
-    "secondary": "",
+    "secondary": "red",
     "tertiary": "blue",
     "accent": "pink"
   },

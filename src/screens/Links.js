@@ -55,7 +55,7 @@ export default function Links({ information }) {
         <Header information={information}/>
         <Banner information={information}/>
         <Col style={{ marginTop: 10 }}>
-          {links.map((item) => <LinkButton item={item} />)}
+          {links.map((item) => <LinkButton item={item} information={information}/>)}
         </Col>
       </div>
       <Footer information={information}/>

@@ -10,12 +10,12 @@ export default function Header({ information }) {
   const colors = information.colors
   return (
     <div style={{
-      paddingTop: 20
+      paddingTop: 20,
+      paddingBottom: 15
     }}>
     <Row style={{
       justifyContent: "space-evenly",
       alignItems: "center",
-      // padding: "20 0 7px 0"
     }}>
       <img
         className="circle"

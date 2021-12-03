@@ -12,14 +12,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--black);
-  background: var(--white);
+  color: black;
+  background: white;
   font-family: "Source Sans Pro";
   min-height: 100%;
 }
 
 .buffer {
-  margin: 1% 5% 0 5%;
+  margin: auto;
+  max-width: 700px;
 }
 
 code {
@@ -36,11 +37,11 @@ img {
 }
 
 .navbar a {
-  color: var(--white);
+  color: white;
 }
 
 a {
-  color: var(--secondary);
+  color: lightskyblue;
 }
 
 a:hover {
@@ -49,51 +50,40 @@ a:hover {
 
 .active {
   font-weight: 700;
-  color: (--primary);
+  color: black;
 }
 
 h1 {
-  font-family: "Spartan";
   font-weight: 900;
   font-size: 48;
   letter-spacing: 5px;
-  text-transform: lowercase;
-  color: var(--primary);
   margin: 0;
 }
 
 h2 {
-  font-family: "Source Sans Pro";
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 36;
   letter-spacing: 2px;
-  color: var(--black);
 }
 
 h3 {
-  font-family: "Spartan";
   font-weight: 700;
   font-size: 28;
   letter-spacing: 3px;
-  text-transform: lowercase;
-  color: var(--black);
 }
 
 p {
-  font-family: "Source Sans Pro";
   font-weight: 400;
   font-size: 18;
   letter-spacing: 1px;
-  color: var(--black);
   margin: 5px;
 }
 
 footer {
   text-align: center;
   margin-top: 5%;
-  background: var(--primary);
-  color: var(--white);
+  background: black;
+  color: white;
   padding: 1% 5%;
 }
 
@@ -107,43 +97,14 @@ footer {
   align-items: center;
 }
 
-.link {
-  background: var(--nude);
-  color: var(--black);
-  width: 100%;
-  min-height: 50px;
-  margin-top: 10px;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-  vertical-align: center;
-  padding: 2%;
-}
-
 .link:hover, .link:focus {
-  background: var(--primary);
-  color: var(--white);
+  background: black;
+  color: white;
   text-decoration: none;
 }
 
 .link-text:hover, .link-text:focus {
   color: inherit;
-}
-
-.primary {
-  color: var(--primary)
-}
-
-.secondary {
-  color: var(--secondary)
-}
-
-.black {
-  color: var(--black)
-}
-
-.white {
-  color: var(--white)
 }
 
 @media screen and (max-width: 992px) {

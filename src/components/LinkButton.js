@@ -1,9 +1,22 @@
-export default function LinkButton({item}) {
+export default function LinkButton({item, information}) {
+  const colors = information.colors
   return (
-    <p key={item.id}>
-      <a href={item.link} target="_blank" rel="noreferrer" className="link d-flex align-items-center justify-content-center text-center">
-        {item.content}
-      </a>
-    </p>
+    <a key={item.id} href={item.link} target="_blank" rel="noreferrer" className="link"
+      style={{
+        textAlign: "center",
+        justifyContent: "center",
+        alignItems: "center",
+        justifyItems: "center",
+        display: "flex",
+        background: colors.secondary,
+        color: colors.primary,
+        width: "100%",
+        minHeight: "50px",
+        marginTop: "10px",
+        verticalAlign: "center",
+        padding: "2%"
+      }}>
+      {item.content}
+    </a>
   )
 }
