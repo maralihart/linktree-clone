@@ -42,8 +42,15 @@ export default function Links({ information }) {
     fetchLinks();
   }, []);
 
+  const colors = information.colors;
+  const fonts = information.fonts;
+
   return (
-    <>
+    <div style={{
+      backgroundColor: colors.accent,
+      color: colors.primary,
+      font: fonts.primary
+      }}>
       <div class="buffer">
         <Header information={information}/>
         <Banner information={information}/>
@@ -51,7 +58,7 @@ export default function Links({ information }) {
           {links.map((item) => <LinkButton item={item} />)}
         </Col>
       </div>
-      <Footer />
-    </>
+      <Footer information={information}/>
+    </ div>
   );
 }

@@ -17,8 +17,7 @@
     "primary": "green",
     "secondary": "",
     "tertiary": "blue",
-    "accent": "white",
-    "background": "pink"
+    "accent": "pink"
   },
   "fonts": {
     "primary": "Source Sans Pro",

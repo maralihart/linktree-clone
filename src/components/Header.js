@@ -7,12 +7,15 @@ import { Row, Col } from 'react-bootstrap';
 import InstagramIcon from '../assets/instagram-logo.png';
 
 export default function Header({ information }) {
+  const colors = information.colors
   return (
-    <>
+    <div style={{
+      paddingTop: 20
+    }}>
     <Row style={{
       justifyContent: "space-evenly",
       alignItems: "center",
-      margin: "20px 0 7px 0"
+      // padding: "20 0 7px 0"
     }}>
       <img
         className="circle"
@@ -20,7 +23,7 @@ export default function Header({ information }) {
         width="125px" height="125px"
         alt={`Headshot of ${information.name}`} />
     </Row>
-    <h1 className="text-center">{information.name}</h1>
-    </>
+    <h1 className="text-center" style={{color: colors.primary}}>{information.name}</h1>
+    </div>
   )
 }

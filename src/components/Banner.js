@@ -11,7 +11,11 @@ export default function Banner({ information }) {
       {Object.values(socials).map((item) => {
         return (<SocialIcon url={item} 
           bgColor={colors.primary} 
-          fgColor={colors.accent}/>)
+          fgColor={colors.accent}
+          style={{
+            width: 36,
+            height: 36,
+          }}/>)
       })}
     </Row>
   )
