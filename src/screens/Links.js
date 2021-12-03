@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import LinkButton from '../components/LinkButton';
 
-export default function Links() {
+export default function Links({ information }) {
 
   const [links, setLinks] = useState([
     {
